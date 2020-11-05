@@ -1,1 +1,23 @@
 This is a new textfile, in a new branch.
+
+
+Git log after merging with branch, but not yet pushed to GitHub.
+
+$ git log --graph
+* commit d9af8ce6376d3f157cfff93c27e2414f70d032bd (HEAD -> main, new_branch)
+| Author: Karen Batjes <batjeskaren@gmail.com>
+| Date:   Thu Nov 5 19:02:24 2020 +0100
+|
+|     Added a textfile to repo
+|
+* commit 396beecaea9b16e6301596f76b83b8cfb3372a01 (origin/main)
+| Author: Karen Batjes <batjeskaren@gmail.com>
+| Date:   Thu Nov 5 18:56:49 2020 +0100
+|
+|     Second commit, added gitignore file
+|
+* commit 898ccf881524af17adc0f5983048fb305a3f47a7
+  Author: Karen Batjes <batjeskaren@gmail.com>
+  Date:   Thu Nov 5 18:52:29 2020 +0100
+
+      First commit, added README file
